@@ -1,8 +1,22 @@
 aid: moonactive
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moonactive.png
 name: MoonActive
-description: 'MoonActive is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'MoonActive is a mobile game developer and publisher best known for the casual titles Coin
+  Master and Pet Master. It was surfaced as a portfolio company of Insight Partners and added to the API
+  Evangelist network for enrichment. As a consumer gaming company MoonActive publishes no public developer
+  API, SDK, or documentation surface; the enrichment pass captured its security and domain posture only
+  (a published RFC 9116 security.txt with a security contact and disclosure page, plus probed TLS/SPF/DMARC).'
 url: https://raw.githubusercontent.com/api-evangelist/moonactive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +26,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Gaming
+- Mobile Games
+- Entertainment
+- Casual Games
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +43,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.moonactive.com/
+- type: WellKnown
+  url: well-known/moonactive-well-known.yml
+- type: SecurityTxt
+  url: well-known/moonactive-security.txt
+- type: DomainSecurity
+  url: security/moonactive-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/moonactive-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.moonactive.com/security-report
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1

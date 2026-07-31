@@ -1,0 +1,5 @@
+Preferred-Languages: en
+Report security findings: https://www.moonactive.com/security-report
+Contact: mailto:security-finding@moonactive.com
+Canonical: https://www.moonactive.com/.well-known/security.txt
+Hiring: https://www.moonactive.com/careers/
